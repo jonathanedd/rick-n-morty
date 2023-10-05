@@ -33,7 +33,7 @@ body {
   height: 50vh;
   background-color: #000000;
 }
-.input-search h6 {
+.input-search p {
   color: #f9f871;
   font-size: 1rem;
 }
@@ -132,5 +132,6 @@ body {
   }
   .input-search input {
     width: 80%;
+    margin-top: 30px;
   }
 }

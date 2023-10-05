@@ -17,13 +17,12 @@ const InputSearch = ({ setApiInfo }) => {
       transition={{ duration: 0.5 }}
     >
       <div className="input-search">
-        <h6>Type a number from 1 to 126</h6>
         <input
-          placeholder="Type here"
           type="text"
           onChange={(e) => setSearchId(e.target.value)}
           value={searchId}
         />
+        <p>Type a number from 1 to 126</p>
         <button onClick={handleSearch}> Search</button>
       </div>
     </motion.div>
