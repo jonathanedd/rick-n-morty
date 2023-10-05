@@ -109,14 +109,14 @@ body {
 @media (max-width: 767px) {
   .location-info {
     width: 100%;
-    height: 30%;
+    height: 25%;
     font-size: 0.6rem;
   }
 
   .resident-list {
     width: 100%;
     height: 50vh;
-    top: 31%;
+    top: 26%;
     display: grid;
     grid-template-columns: 100%;
     overflow: auto;
@@ -128,6 +128,6 @@ body {
 
   .input-search {
     width: 100%;
-    height: 21%;
+    height: 25%;
   }
 }
