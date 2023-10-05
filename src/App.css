@@ -109,7 +109,7 @@ body {
 @media (max-width: 767px) {
   .location-info {
     width: 100%;
-    height: 25%;
+    height: 25vh;
     font-size: 0.6rem;
   }
 
@@ -128,6 +128,9 @@ body {
 
   .input-search {
     width: 100%;
-    height: 25%;
+    height: 25vh;
+  }
+  .input-search input {
+    width: 80%;
   }
 }
